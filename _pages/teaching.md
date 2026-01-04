@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: activities
+title: Activities
 description: 
 nav: true
 nav_order: 6

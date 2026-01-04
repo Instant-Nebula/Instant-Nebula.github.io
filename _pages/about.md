@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 
 
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Chenhan Wang, a final-year Master’s student in Computer Science and Technology at the University of Science and Technology of China (USTC). My research focuses on **distributed systems**, particularly addressing efficiency and reliability challenges in ML systems and storage systems. I am broadly interested in systems research.
+I am Chenhan Wang, a final-year Master’s student in Computer Science and Technology at the [University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/). My research focuses on **distributed systems**, particularly addressing efficiency and reliability challenges in ML systems and storage systems. I am broadly interested in systems research.
 
 I am currently advised by Prof. [Cheng Li](https://mr-cheng-li.github.io/) at USTC, Prof. [Kang Chen](https://madsys.cs.tsinghua.edu.cn/author/kang-chen/) at Tsinghua University, and interning at ByteDance Seed. Previously, I worked with Dr. [Yiting Xia](https://sites.google.com/view/yitingxia/home) at MPI-INF.
 

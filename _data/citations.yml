@@ -1,6 +1,12 @@
 metadata:
   last_updated: '2025-12-24'
 papers:
+  abcdefg:1:
+    title: "Enhanced In-Memory Checkpointing for Large Scale DNN Training with Asymmetric Parallelism Strategy"
+    year: '2025'
+  abcdefg:2:
+    title: "Towards Agile and Judicious Metadata Load Balancing for Ceph File System via Matrix-based Modeling"
+    year: '2025'
   qc6CJjYAAAAJ:-1WLWRmjvKAC:
     citations: 4
     title: THE DULONG-PETIT LAW OF SPECIFIC HEATS

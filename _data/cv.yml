@@ -2,96 +2,114 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Chenhan Wang
     - name: Date of Birth
-      value: 14th March 1879
+      value: Sep 2002
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master
+      institution: University of Science and Technology of China (USTC), Hefei, China
+      year: 2023-2026 (EXP)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Computer Science and Technology
+        - "Advisor: Cheng Li"
+    - title: Bachelor
+      institution: University of Science and Technology of China (USTC), Hefei, China
+      year: 2019-2023
+      description:
+        - Computer Science and Technology
+        - "Advisor: Cheng Li"
+        # - School of the Gifted Young (admitted under age 17)
+        - title: Special Honors
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - School of the Gifted Young (admitted under age 17)
+        #     - Sub-description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Training Infrastructure Team, ByteDance Seed
+      year: 2025 - Present
+      # description:
+      #   - Working on I/O and checkpointing optimization for large-scale model training.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+
+    - title: Postgraduate Researcher
+      institution: Advanced Data Systems Laboratory, USTC
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working on checkpointing under asymmetric parallelism strategies.
+
+    - title: Research Intern
+      institution: Network and Cloud System, MPI-INF
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Working on checkpoint optimization for sparse architectures such as Mixture-of-Experts.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Presentations & Posters
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2025
+      description: Presented “Enhanced In-Memory Checkpointing for Large Scale DNN Training with Asymmetric Parallelism Strategy.” at SOSP 2025 SRC
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Second Place, ACM SOSP Student Research Competition
+    - year: 2023-2025
       items:
-        - Max Planck Medal
+        - Academic Excellence Scholarship
+    - year: 2023
+      items:
+        - Outstanding Graduate of USTC (Top 15%)
+    - year: 2022
+      items:
+        - Ministry of Education-Huawei Intelligent Base Scholarship
+        - Zhong Hai Memorial Scholarship (Top 2 female students in college)
+        - Outstanding Student Scholarship (Gold Award, Top 3%)
+    - year: 2021
+      items:
+        - Gold Medal, iGEM International Competition
+        - First Prize, Anhui Province Mathematical Modeling Competition
+        
+
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - |
+      <span style="display: inline-block; padding: 3px 10px; background-color: #b80cac; color: #ffffff; border-radius: 4px; font-weight: 600; font-size: 0.95em; line-height: 1.4;">Distributed Machine Learning Systems</span>
+      <ul style="margin-top: 12px; padding-left: 20px;">
+        <li style="margin-bottom: 8px;">
+          <b>Reliability & Fault Tolerance:</b> Design efficient checkpointing and recovery mechanisms for large-scale distributed training, with a growing interest in system reliability and fault tolerance.
+        </li>
+        <li style="margin-bottom: 8px;">
+          <b>Data-Centric Infrastructure:</b> Develop semantic-aware systems that orchestrate data flow to overcome the I/O and memory walls in future AI clusters.
+        </li>
+        <li style="margin-bottom: 8px;">
+          <b>Resource Management:</b> Interested in optimizing resource allocation and scheduling for various AI workloads with diverse requirements.
+        </li>
+      </ul>
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - >
+      <b>Hobbies:</b> Decorative journaling*, drawing, badminton, board games, 
+      and exploring flower arranging & baking as a happy beginner <b>:</b>D
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #666; font-size: 0.95em;">* About decorative journaling: 
+      Designing and embellishing planners with stickers and washi tape, 
+      hand-drawn illustrations and doodles, creative layouts and color schemes.</span>
